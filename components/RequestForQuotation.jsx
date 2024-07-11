@@ -11,7 +11,7 @@ const RequestForQuotation = () => {
           <div className="flex items-center shadow justify-center">
             <form className="max-w-lg bg-white bg-opacity-75 p-6 rounded-lg w-full">
               <h3 className="text-xl font-bold text-center mb-4 text-gray-900">
-                Let's get started with your Query
+                Let&apos;s get started with your Query
               </h3>
               <input
                 type="text"
