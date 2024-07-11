@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FaStar } from "react-icons/fa6";
@@ -33,10 +34,12 @@ const PopularProducts = () => {
               className="group flex flex-col overflow-hidden gap-4 bg-white bg-opacity-75 rounded-lg  shadow-md hover:translate-y-[-5px] transition-transform duration-300 max-w-[300px]"
             >
               <div className="w-full overflow-hidden h-40 flex items-center justify-center">
-                <img
+                <Image
                   src={tech.url}
                   alt="NodeJs logo"
                   className="w-full h-full object-cover"
+                  height={100}
+                  width={300}
                 />
               </div>
               <div className="p-6">

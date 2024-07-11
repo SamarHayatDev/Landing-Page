@@ -2,6 +2,7 @@ import React from "react";
 import { IoServerOutline, IoLaptopOutline } from "react-icons/io5";
 import { AiTwotoneApi } from "react-icons/ai";
 import { SiAmazonapigateway } from "react-icons/si";
+import Image from "next/image";
 
 const servicesData = [
   {
@@ -41,7 +42,9 @@ const KeyProgrammingTech = () => {
     <section className="container mx-auto px-4  py-8 md:py-16">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <div className="flex justify-center items-center">
-          <img
+          <Image
+            width={288}
+            height={288}
             src="https://cdn.wewantsaas.com/images/staffAugmentation/services/software-development/experts/main-image.svg"
             alt="Experts in Key Programming Tech"
             className="w-[70%]"

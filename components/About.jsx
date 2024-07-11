@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const About = () => {
@@ -21,10 +22,12 @@ const About = () => {
           </p>
         </div>
         <div className="flex items-center justify-center">
-          <img
+          <Image
             src="https://cdn.wewantsaas.com/images/staffAugmentation/services/software-development/SaaS-Software-Development-Overview.svg"
             alt="SaaS Software Development Overview"
             className="max-w-full"
+            width={500}
+            height={500}
           />
         </div>
       </div>

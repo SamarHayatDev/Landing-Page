@@ -1,96 +1,127 @@
-import React from "react";
-
+import Image from "next/image";
 const MovingBars = () => {
   return (
-    <section className="overflow-hidden container mx-auto px-4 py-8 md:py-16">
+    <section className="overflow-hidden container max-w-7xl mx-auto px-4 py-8 md:py-16">
       {/* Ensure no overflow */}
       <div className="flex flex-col">
         <div className="flex items-center animation-left duration-1">
-          <img
+          <Image
             src="https://cdn.wewantsaas.com/images/staffAugmentation/services/software-development/stacks/stacks-we-use-01.png"
-            alt="rotating img"
-            className="h-[100px]"
+            alt="rotating Image"
+            className="h-full"
+            width={600}
+            height={70}
           />
-          <img
+          <Image
             src="https://cdn.wewantsaas.com/images/staffAugmentation/services/software-development/stacks/stacks-we-use-01.png"
-            alt="rotating img"
-            className="h-[100px]"
+            alt="rotating Image"
+            className="h-full"
+            width={600}
+            height={70}
           />
-          <img
+          <Image
             src="https://cdn.wewantsaas.com/images/staffAugmentation/services/software-development/stacks/stacks-we-use-01.png"
-            alt="rotating img"
-            className="h-[100px]"
+            alt="rotating Image"
+            className="h-full"
+            width={600}
+            height={70}
           />
-          <img
+          <Image
             src="https://cdn.wewantsaas.com/images/staffAugmentation/services/software-development/stacks/stacks-we-use-01.png"
             alt="rotating img"
-            className="h-[100px]"
+            className="h-full"
+            width={600}
+            height={70}
           />
         </div>
         <div className="flex items-center animation-right duration-2">
-          <img
+          <Image
             src="https://cdn.wewantsaas.com/images/staffAugmentation/services/software-development/stacks/stacks-we-use-01.png"
-            alt="rotating img"
-            className="h-[100px]"
+            alt="rotating Image"
+            width={600}
+            height={70}
+            className="h-full"
           />
-          <img
+          <Image
             src="https://cdn.wewantsaas.com/images/staffAugmentation/services/software-development/stacks/stacks-we-use-01.png"
-            alt="rotating img"
-            className="h-[100px]"
+            alt="rotating Image"
+            className="h-full"
+            width={600}
+            height={70}
           />
-          <img
+          <Image
             src="https://cdn.wewantsaas.com/images/staffAugmentation/services/software-development/stacks/stacks-we-use-01.png"
-            alt="rotating img"
-            className="h-[100px]"
+            alt="rotating Image"
+            className="h-full"
+            width={600}
+            height={70}
           />
-          <img
+          <Image
             src="https://cdn.wewantsaas.com/images/staffAugmentation/services/software-development/stacks/stacks-we-use-01.png"
-            alt="rotating img"
-            className="h-[100px]"
+            alt="rotating Image"
+            className="h-full"
+            width={600}
+            height={70}
           />
         </div>
         <div className="flex items-center animation-right duration-3">
-          <img
+          <Image
             src="https://cdn.wewantsaas.com/images/staffAugmentation/services/software-development/stacks/stacks-we-use-01.png"
-            alt="rotating img"
-            className="h-[100px]"
+            alt="rotating Image"
+            className="h-full"
+            width={600}
+            height={70}
           />
-          <img
+          <Image
             src="https://cdn.wewantsaas.com/images/staffAugmentation/services/software-development/stacks/stacks-we-use-01.png"
-            alt="rotating img"
-            className="h-[100px]"
+            alt="rotating Image"
+            className="h-full"
+            width={600}
+            height={70}
           />
-          <img
+          <Image
             src="https://cdn.wewantsaas.com/images/staffAugmentation/services/software-development/stacks/stacks-we-use-01.png"
-            alt="rotating img"
-            className="h-[100px]"
+            alt="rotating Image"
+            className="h-full"
+            width={600}
+            height={70}
           />
-          <img
+          <Image
             src="https://cdn.wewantsaas.com/images/staffAugmentation/services/software-development/stacks/stacks-we-use-01.png"
-            alt="rotating img"
-            className="h-[100px]"
+            alt="rotating Image"
+            width={600}
+            height={70}
+            className="h-full"
           />
         </div>
         <div className="flex items-center animation-left duration-4">
-          <img
+          <Image
             src="https://cdn.wewantsaas.com/images/staffAugmentation/services/software-development/stacks/stacks-we-use-01.png"
-            alt="rotating img"
-            className="h-[100px]"
+            alt="rotating Image"
+            className="h-full"
+            width={600}
+            height={70}
           />
-          <img
+          <Image
             src="https://cdn.wewantsaas.com/images/staffAugmentation/services/software-development/stacks/stacks-we-use-01.png"
-            alt="rotating img"
-            className="h-[100px]"
+            alt="rotating Image"
+            className="h-full"
+            width={600}
+            height={70}
           />
-          <img
+          <Image
             src="https://cdn.wewantsaas.com/images/staffAugmentation/services/software-development/stacks/stacks-we-use-01.png"
-            alt="rotating img"
-            className="h-[100px]"
+            alt="rotating Image"
+            width={600}
+            height={70}
+            className="h-full"
           />
-          <img
+          <Image
             src="https://cdn.wewantsaas.com/images/staffAugmentation/services/software-development/stacks/stacks-we-use-01.png"
-            alt="rotating img"
-            className="h-[100px]"
+            alt="rotating Image"
+            className="h-full"
+            width={600}
+            height={70}
           />
         </div>
       </div>

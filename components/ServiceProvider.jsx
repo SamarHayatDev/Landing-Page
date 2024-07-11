@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const ServiceProvider = () => {
@@ -8,10 +9,12 @@ const ServiceProvider = () => {
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl mx-auto">
         <div className="group flex flex-col lg:flex-row items-center bg-white bg-opacity-75 rounded-lg p-6 shadow-md transition-transform transform hover:translate-y-[-5px] hover:bg-blue-500 border-l-4 border-blue-500">
-          <img
+          <Image
             src="https://cdn.wewantsaas.com/images/staffAugmentation/services/our-services/short-term.svg"
             alt="Short-Term Software Development Team"
             className="mb-4 lg:mb-0 lg:mr-4 h-72 w-72 rounded-lg"
+            width={288}
+            height={288}
           />
           <div className="text-left group-hover:text-white">
             <h4 className="text-xl font-bold mb-2">
@@ -25,10 +28,12 @@ const ServiceProvider = () => {
           </div>
         </div>
         <div className="group flex flex-col lg:flex-row items-center bg-white bg-opacity-75 rounded-lg p-6 shadow-md transition-transform transform hover:translate-y-[-5px] hover:bg-blue-500 border-l-4 border-blue-500">
-          <img
+          <Image
             src="https://cdn.wewantsaas.com/images/staffAugmentation/services/our-services/long-term.svg"
             alt="Long-Term Software Development Team"
             className="mb-4 lg:mb-0 lg:mr-4 h-72 w-72 rounded-lg"
+            width={288}
+            height={288}
           />
           <div className="text-left group-hover:text-white">
             <h4 className="text-xl font-bold mb-2">

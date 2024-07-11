@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { FaPeopleLine, FaLocationDot } from "react-icons/fa6";
 import { FaRegCheckCircle } from "react-icons/fa";
+import Image from "next/image";
 
 const servicesData = [
   {
@@ -57,7 +58,13 @@ const OurServices = () => {
       </h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 ">
         <div className="flex items-center justify-center">
-          <img src={selectedImage} alt="Selected Service" className="w-[60%]" />
+          <Image
+            src={selectedImage}
+            alt="Selected Service"
+            className="w-[60%]"
+            width={288}
+            height={288}
+          />
         </div>
         <div className="grid md:grid-cols-2 gap-6">
           {servicesData.map((service) => (
