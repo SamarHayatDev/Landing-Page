@@ -13,7 +13,7 @@ const Cta = () => {
           company. Let us help you make it in the industry.
         </p>
         <button className="bg-white text-black py-2 px-6 rounded-lg hover:bg-blue-500  hover:text-white  transition-colors duration-300">
-          Let's Get Started
+          Let&apos;s Get Started
         </button>
       </div>
     </section>
