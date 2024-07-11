@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { FaBars, FaTimes } from "react-icons/fa";
+import Image from "next/image";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,10 +16,11 @@ const Header = () => {
       <div className="max-w-6xl mx-auto px-4 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="text-xl font-bold">
-          <img
+          <Image
             src="https://cdn.wewantsaas.com/landing-page/images/SVG/wws_logo.svg"
             alt="logo"
-            className="h-[50px] w-[50px]"
+            width={50}
+            height={50}
           />
         </Link>
 
