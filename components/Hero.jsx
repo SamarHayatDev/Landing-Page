@@ -38,7 +38,7 @@ const Hero = () => {
           </h1>
           <p className="text-lg mb-4 text-gray-800">
             Grow your SaaS business exponentially with a talented software
-            development team that consistently meets your target market’s
+            development team that consistently meets your target market&apos;s
             demands. Get in touch with We Want SaaS today.
           </p>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-4">
