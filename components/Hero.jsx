@@ -56,7 +56,7 @@ const Hero = () => {
         <div className="flex items-center justify-center">
           <form className="max-w-lg bg-white bg-opacity-75 p-6 rounded-lg">
             <h3 className="text-xl font-bold text-center mb-4">
-              Let's get started with your Query
+              Let&apos;s get started with your Query
             </h3>
             <input
               type="text"
